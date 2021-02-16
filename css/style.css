@@ -1,5 +1,5 @@
 body {
-    height: 1500px;
+    height: 3000px;
 }
 
 img{
@@ -14,25 +14,78 @@ hr{
     margin: 0 auto;
 }
 
+button{
+    margin-top: 30px;
+}
+
+.carousel-item img{
+    filter: brightness(.7);
+}
+
 .container-fluid{
     margin-top: 30px;
     padding: 0;
 }
 
-.carousel-caption h3{
-    margin-top: -20%;
+.carousel-caption h1{
+    margin-top: -200px;
 }
 
-.w3-card-4{
-    width: 100px;
-    height: 150px;
+.carousel-caption img{
+    width:280px; 
+    margin-top: -750px;
 }
 
-.w3-card-4 p{
-    text-align: center;
+/* nav card */
+.nav-card .card{
+    margin: 30px auto;
+}
+
+.nav-card img{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.nav-card .card a{
+    font-size: 1.3em;
 }
 
 /* Profil Desa */
 .profil-desa{
     background-color: rgb(236, 236, 236);
+    padding: 30px 0;
+}
+
+.profil-desa p{
+    margin-top: 20px;
+}
+
+/* Struktur Organisasi */
+.struktur-organisasi{
+    padding: 30px 0;
+}
+
+.struktur-organisasi .card{
+    width: 180px;
+    margin: 0 auto;
+}
+
+/* Kegiatan Desa */
+.kegiatan{
+    background-color: rgb(236, 236, 236);
+    padding: 30px 0;
+}
+
+.kegiatan img{
+    width: 500px;
+    margin: 20px auto;
+}
+
+/* data penduduk */
+.data-penduduk{
+    padding: 30px 0;
+}
+
+.data-penduduk img{
+    width: 256px;
 }
