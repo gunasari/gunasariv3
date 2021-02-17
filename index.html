@@ -10,14 +10,34 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/w3.css">
 
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="css/all.css">
+
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fontawesome Icon -->
+    
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
 
     <title>Hello, world!</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark custom-navbar fixed-top">
+        <!-- icon kanan -->
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#"></a>
+            </li>
+         </ul>
+        
         <a class="navbar-brand" href="#">GUNASARI</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -36,6 +56,9 @@
                         <a href="#" class="dropdown-item" >MUI</a>
                         <a href="#" class="dropdown-item" >Karang Taruna</a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">APARATUR DESA</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">LAYANAN DESA</a>
@@ -75,28 +98,18 @@
 
     <!-- nav card -->
     <section class="nav-card">
-        <div class="container">
+        <div class="container align-content-center">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="card text-center">
-                        <img src="img/icon/001-smartphone.png" alt="">
+                        <img src="img/icon/042-map pointer.png" alt="">
                         <div class="card-body">
-                            <a href="#profil-desa" class="card-link btn stretched-link">Profil Desa</a>
+                            <a href="#destinasi-wisata" class="card-link btn stretched-link">Destinasi Wisata</a>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="col-sm-3">
-                    <div class="card text-center">
-                        <img src="img/icon/043-client server.png" alt="">
-                        <div class="card-body">
-                            <a href="#struktur-organisasi" class="card-link btn stretched-link">Struktur Organisasi</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="card text-center">
                         <img src="img/icon/005-promotion.png" alt="">
                         <div class="card-body">
@@ -105,7 +118,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <div class="card text-center">
                         <img src="img/icon/008-growth chart.png" alt="">
                         <div class="card-body">
@@ -114,150 +127,103 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
     </section>
 
     <!-- Profil Desa -->
     <section class="profil-desa mt-5" id="profil-desa">
-       <div class="container">
-           <div class="row">
-               <div class="col-sm-12">
-                   <h2 class="text-center">Profil Desa</h2>
-                   <hr class="text-center">
-               </div>
-           </div>
-
-        <div class="row">
-            <div class="col-sm-12">
-                <p class="text-center px-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ut blanditiis tempora quos sapiente est, explicabo accusantium hic, aperiam, voluptates pariatur assumenda beatae expedita laudantium alias. Laboriosam quos eius, quis cum magni itaque magnam amet praesentium temporibus quod molestias molestiae asperiores non voluptatibus ex dolorem nemo nesciunt! Ducimus minus esse doloribus quae dolorum culpa, pariatur minima necessitatibus non porro dolores ab ullam explicabo aliquid corporis quod eaque fugit perferendis quo animi, veritatis dignissimos distinctio sapiente. Optio laudantium officia excepturi est fugit rerum atque. Repudiandae, enim perspiciatis? Modi mollitia debitis quos nam quas, voluptates, dolor quibusdam reiciendis, enim maiores amet fuga?
-                </p>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="text-center">Profil Desa Gunasari</h1>
+                    <hr class="text-center">
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <button type="button" class="btn btn-light">Lihat Selengkapnya...</button>
-            </div>
-        </div>
-       </div>
-    </section>
 
-    <!-- Struktur Organisasi -->
-    <section class="struktur-organisasi" id="struktur-organisasi">
-        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center px-5">
+                        Desa Gunasari merupakan salah satu desa yang terletak di wilayah Kecamatan Sumedang Selatan, Kabupaten Sumedang. Desa Gunasari didominasi oleh perbukitan dengan rata-rata suhu 28<sup>o</sup>C – 32<sup>o</sup>C Desa ini memiliki sebuah sungai dan 23 sumber mata air. Desa Gunasari memiliki luas 625, 5764 ha yang terbagi menjadi 4 Dusun, 9 RW dan 35 RT. Batas Administratif Pemerintah Desa Gunasari adalah Desa Rancamulya pada sebelah Utara, Desa Cikondang pada sebelah Timur, Desa Cipancar pada sebelah Selatan, Desa Sukagalih dan Desa Baginda pada Sebelah Barat.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="profil-lengkap" id="profil-lengkap" style="display: none;">
+                    <h3>Sejarah Desa Gunasari</h3>
+                    <p>Terkait nama desanya, ada cerita rakyat yang terkait dengan penamaan Gunasari, sebagaimana diceritakan oleh Lies Ganesti, dahulu ada seorang wanita yang berparas sangat cantik bernama Nyi Sari namun memiliki sifat sombong. Karena kecantikannya, banyak pemuda yang tertarik. Namun tak satupun pinangan pemuda-pemuda tersebut yang diterima. Ada satu pemuda yang ditolak secara tidak sopan dan diusir yang mengakibatkan pemuda tersebut sakit hati sehingga berakhir dengan dendam dan akan membalasnya. Setelah beberapa waktu, Nyi Sari mengalami gatal-gatal di seluruh tubuhnya. Walau sudah diobati ke mana-mana, namun tidak kunjung sembuh. Dan akhirnya mendapatkan wangsit bahwa penyakitnya berasal dari guna-guna dan untuk mengobatinya ia harus mengubah sifat dan meminta maaf kepada orang yang pernah disakitinya. Setelah itu dilakukan, penyakitnya berangsur sembuh. Dengan kejadian ini, lokasi sekitar tempat tinggal Nyi Sari dikenal dengan nama Gunasari.</p>
+                    <h3>Visi & Misi</h3>
+                    <h4>DESA GUNASARI TAHUN 2021-2026</h4>
+
+                    <h5>Visi</h5>
+                    <p>Terwujudnya Tata Kelola Pemerintahan Yang Profesional dan Bersih Untuk Mewujudkan Desa Gunasari Yang Manusiawi, Agamis, Jujur, Usaha Untuk Amanah (MAJU)</p> 
+                    <h5>Misi</h5>
+                    <ol>
+                        <li>
+                             Meningkatkan kesejahteraan dan pemberdayaan masyarakat
+                                <ul>
+                                    <li>Meningkatkan taraf hidup masyarakat yang mencakup bidang kesehatan, bidang pendidikan sosial dan aspek kehidupan lainnya sehingga kesejahteraan masyarakat dapat tercapai sesuai dengan harapan.</li>
+                                    <li>Meningkatkan pemberdayaan potensi pertanian untuk menunjang sumber pendapatan dan kesejahteraan masyarakat.</li>
+                                </ul>
+                            </li>
+                        
+                            <li>
+                                 Meningkatkan nilai-nilai religius guna meningkatkan keimanan dan ketaqwaan serta dalam membentuk akhlakul karimah
+                                 <ul>
+                                     <li>Terwujudnya masyarakat yang mengamalkan dan mematuhi ajaran-ajaran agama, sehingga tercipta peradaban yang baik dan terwujudnya Khairu Ummah (Umat Terbaik).</li>
+                                 </ul>
+                            </li>
+                            
+                            <li>
+                                 Terwujudnya tata kelola yang baik (Good Government) dan bebas dari korupsi, kolusi, dan nepotisme.
+                                 <ul>
+                                    <li>Meningkatkan kapasitas dan profesionalisme perangkat desa dalam rangka optimalisasi pelayanan publik (pelayanan prima).</li>
+                                    <li>Meningkatkan kinerja pelayanan masyarakat (Good Government to Citizen) yang bersih, cepat, tepat, dan akuntabel.</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                 Mewujudkan lingkungan masyarakat yang mandiri dengan membangun semangat kebersamaan, musyawarah, gotong royong, dan kerjasama antar warga dalam merumuskan kebijakan pembangunan.
+                                 <ul>
+                                    <li>Melakukan kegiatan sapawarga dengan terjun langsung melihat kondisi masyarakat di seluruh wilayah Desa Gunasari.</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                 Meningkatkan sumber pendapatan desa dengan menggali potensi industri kreatif
+                                 <ul>
+                                    <li>Membina dan mengembangkan BUMDes dengan membentuk unit usaha.</li>
+                                    <li>Mengupayakan pelestarian sumber daya alam untuk memenuhi kebutuhan dan pemerataan pembangunan guna meningkatkan perekonomian.</li>
+                                </ul>
+                            </li>
+
+                        </ol> 
+                        
+                        
+                       
+                        
+                        
+                        
+                       
+                        
+                        </p>
+                    </div>
+            </div>
+
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2>Struktur Organisasi</h2>
-                    <hr>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card mt-4 text-center">
-                        <img src="img/icon/036-boy.png" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="" class="card-link"> 
-                                    Kepala Desa
-                                </a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="card mt-4 text-center">
-                        <img src="img/icon/036-boy.png" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="" class="card-link"> 
-                                    Kepala Desa
-                                </a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="card mt-4 text-center">
-                        <img src="img/icon/036-boy.png" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="" class="card-link"> 
-                                    Kepala Desa
-                                </a>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <button type="button" class="btn btn-light">Lihat Selengkapnya...</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Kegiatan Desa  -->
-    <section class="kegiatan" id="kegiatan">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h2>Kegiatan Desa</h2>
-                    <hr>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4 text-center">
-                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
-                </div>
-
-                <div class="col-sm-4 text-center">
-                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
-                </div>
-
-                <div class="col-sm-4 text-center">
-                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4 text-center">
-                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
-                </div>
-
-                <div class="col-sm-4 text-center">
-                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
-                </div>
-
-                <div class="col-sm-4 text-center">
-                    <img src="img/thumbs/gerakjalan.jpg" alt="" class="img-thumbnail">
+                    <button type="button" class="btn btn-light" id="button">Lihat Selengkapnya...</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- data penduduk -->
-    <section class="data-penduduk" id="data-penduduk">
-        <div class="container">
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <div class="container-fluid bg-dark text-light">
             <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h2>Data Penduduk</h2>
-                    <hr>
-                </div>
-            </div>
-
-            <div class="row pt-5">
-                <div class="col-sm-4 text-center">
-                    <img src="img/icon/increase.png" alt="">
-                </div>
-                <div class="col-sm-8">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum commodi ducimus reprehenderit soluta aliquam labore eveniet, a non impedit porro odio debitis ratione! Perferendis aliquam consequuntur et animi. Odit placeat quia natus recusandae consequatur molestias ex ratione? Ipsum sequi necessitatibus explicabo asperiores molestiae praesentium ipsa enim labore dolorem ipsam ab perspiciatis beatae neque, soluta reiciendis ad. Ex sequi officiis unde quam ratione ipsum sapiente vel tempore ad vitae, sit sint sed possimus et, rerum culpa. Adipisci architecto, placeat assumenda alias officiis ex? Expedita deserunt accusamus omnis delectus hic labore, obcaecati pariatur dolore dolores maiores placeat ex eum tenetur, modi fugiat.</p>
-                    <button type="button" class="btn btn-light">Lihat Selengkapnya...</button>
+                <div class="col-md-12">
+                    <h6 class="text-center">&copy Copyright Gunasari. 2021</h6>
                 </div>
             </div>
         </div>
